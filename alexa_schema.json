@@ -1,0 +1,104 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "dialect quiz",
+            "intents": [
+                {
+                    "name": "ReturnUserInput",
+                    "slots": [
+                        {
+                            "name": "text",
+                            "type": "ReturnAllText"
+                        }
+                    ],
+                    "samples": [
+                        "{text}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop",
+                        "ok bye"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "ReturnAllText",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "All human beings are born free and equal in dignity and rights."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "karaamat kee garwa wagittaamal seehada inkih gide akkuk, currik taabuke."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Të gjithë njerëzit lindin të lirë dhe të barabartë në dinjitet dhe në të drejta."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Konojel ri winaqi' kan kalaxib'en pe ri kolotajïk, ri junan kiq'ij, ri junan kejqalen, junan kich'ojib'al pa kik'aslen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Himmaka' nittakookano hattak yokasht toksalicha'nikat ki'yo."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Era sucu ena galala na tamata yadua, era tautauvata ena nodra dokai kei na nodra dodonu."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tha gach uile dhuine air a bhreth saor agus co-ionnan ann an urram 's ann an còirichean."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "人人生而自由，在尊严合权利上一律平等。"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Semua orang dilahirkan merdeka dan mempunyai martabat dan hak-hak yang sama."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Everi human being, naim dem born free and dem de equal for dignity and di rights wey we get, as human beings"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bonke abantu bazalwa bekhululekile belingana ngesithunzi nangamalungelo."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "सागला िमनख आज़ाद अर ूितƵा ने आिधकारां रȣ बरोबरȣ िलयोडा पैदा होवे। åहां मɅ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nganana maru tjuta, tjulkura tjuta, manta yurungka parrari nyinapayi tjutanya liipulala nyinanyi, nganana yanangu maru tjuta wiya kuyakuya."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
