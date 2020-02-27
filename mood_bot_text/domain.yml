@@ -1,0 +1,40 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_happy
+- utter_goodbye
+- utter_goodbye_console
+- utter_iamabot
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+    buttons:
+    - title: "great"
+      payload: "/mood_great"
+    - title: "super sad"
+      payload: "/mood_unhappy"
+
+  utter_cheer_up:
+  - text: "Here's a fun fact to cheer you up: sea otters hold hands while sleeping so they don't float away from each other. Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_goodbye_console:
+  - text: "Sorry to hear that. I hope your day improves. Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
