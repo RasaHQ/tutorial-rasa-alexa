@@ -2,7 +2,7 @@
 
 # Tutorial: Building a Rasa-powered Alexa Assistant
 
-This repository contains the code of the tutorial of connecting Rasa-powered assistant to Alexa. You can find the [step-by-step tutorial here](ADD LINK) or in [this YouTube Playlist](https://www.youtube.com/playlist?list=PL75e0qA87dlGBbO8rWacgq9ejr5stsGnh).
+This repository contains the code of the tutorial of connecting Rasa-powered assistant to Alexa. You can find the [step-by-step tutorial here](https://blog.rasa.com/connect-your-rasa-ai-assistant-to-amazon-alexa) or in [this YouTube Playlist](https://www.youtube.com/playlist?list=PL75e0qA87dlGBbO8rWacgq9ejr5stsGnh).
 
 ## What's in this repository?
 
@@ -13,7 +13,7 @@ This repository consists of the following files and directories:
 
 ## How to use this repository?
 
-The best way to use this repository is to follow [this step-by-step tutorial](ADD LINK) on how to integrate the Rasa assistant to Alexa. 
+The best way to use this repository is to follow [this step-by-step tutorial](https://blog.rasa.com/connect-your-rasa-ai-assistant-to-amazon-alexa) on how to integrate the Rasa assistant to Alexa. 
 
 You can download the code for this repository by running:
 
