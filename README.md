@@ -1,4 +1,4 @@
-<img src="square-logo.svg" width=200 height=200 align="right">
+<img src="square_logo.svg" width=200 height=200 align="right">
 
 # Tutorial: Building a Rasa-powered Alexa Assistant
 
@@ -21,16 +21,16 @@ You can download the code for this repository by running:
 
 From here, install the required packages in your virtual environment by running:
 
- `cd tutorial-rasa-alexa/mood_bot_text
- pip install -r requirements.txt`
+`cd tutorial-rasa-alexa/mood_bot_text`
+`pip install -r requirements.txt`
 
 You should now be able to train your assistant using:
 
-	`rasa train`
+`rasa train`
 
 Once your assistant is trained, you can try interacting with it in the shell by running: 
 
-	`rasa shell`
+`rasa shell`
 
 
 ## Let us know how you are getting on!
