@@ -54,6 +54,9 @@ class AlexaConnector(InputChannel):
                 if intent == "AMAZON.StopIntent":
                     session = "true"
                     message = "Talk to you later"
+                elif intent == "AMAZON.FallbackIntent":
+                    session = "false"
+                    message = "I'm sorry I did not understand what you said"
                 else:
                     # get the user-provided text from the slot named "text"
                     text = payload["request"]["intent"]["slots"]["text"]["value"]
