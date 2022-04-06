@@ -11,7 +11,7 @@ from rasa.core.channels.channel import CollectingOutputChannel
 logger = logging.getLogger(__name__)
 
 
-class AlexaConnector(InputChannel):
+class AlexaInput(InputChannel):
     """A custom http input channel for Alexa.
 
     You can find more information on custom connectors in the 
@@ -20,7 +20,7 @@ class AlexaConnector(InputChannel):
 
     @classmethod
     def name(cls):
-        return "alexa_assistant"
+        return "alexa"
 
     # Sanic blueprint for handling input. The on_new_message
     # function pass the received message to Rasa Core
@@ -66,7 +66,7 @@ class AlexaConnector(InputChannel):
                     
                     # send the user message to Rasa & wait for the
                     # response to be sent back
-                    await on_new_message(UserMessage(text, out))
+                    await on_new_message(UserMessage(text, out, input_channel=self.name()))
                     # extract the text from Rasa's response
                     responses = [m["text"] for m in out.messages]
                     message = responses[0]
